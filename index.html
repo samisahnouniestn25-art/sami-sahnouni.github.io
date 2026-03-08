@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sami Sahnouni | Cybersecurity Student, Ethical Hacker, and Web Developer Portfolio">
+    <meta name="keywords" content="Cybersecurity, Web Development, Ethical Hacking, Portfolio, Sami Sahnouni">
+    <title>Sami Sahnouni | Cybersecurity & Web Dev</title>
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Dynamic Background Elements for overall page -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation Area -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">S<span class="highlight">AMI</span></a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            
+            <a href="#contact" class="btn btn-outline nav-cta">Let's Talk</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-up">
+                    <div class="badge">
+                        <i class="fas fa-shield-halved"></i> Security Enthusiast
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <br>
+                        <span class="gradient-text">Sami Sahnouni</span>
+                    </h1>
+                    
+                    <h2 class="hero-subtitle">
+                        I focus on <span class="typewriter-text" id="typewriter"></span>
+                    </h2>
+                    
+                    <p class="hero-desc">
+                        Aspiring professional dedicated to discovering vulnerabilities, securing modern infrastructures, and building robust, resilient web applications.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://github.com/samisahnouniestn25-art" target="_blank" rel="noopener noreferrer" class="btn btn-social">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sami-sahnouni-5a31243b4" target="_blank" rel="noopener noreferrer" class="btn btn-social">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="image-wrapper glass-card">
+                        <img src="profile.jpg" alt="Sami Sahnouni Profile Picture" class="profile-img">
+                        <div class="status-indicator">
+                            <span class="pulse"></span> Open to Work
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container container-narrow">
+                <div class="section-header center" data-aos="fade-up">
+                    <span class="section-subtitle">01. Identity</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                
+                <div class="about-content glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="lead-text">
+                        I am a cybersecurity student with a deep-rooted passion for understanding how systems work—and how they can be broken to be made stronger.
+                    </p>
+                    <p>
+                        My journey involves continuous learning in ethical hacking, penetration testing, and secure software development. I bridge the gap between building modern digital solutions and fortifying them against evolving threats. My goal is to architect secure infrastructures in an increasingly volatile digital landscape.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">02. Arsenal</span>
+                    <h2 class="section-title">My Skills</h2>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Security Skills -->
+                    <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="100">
+                        <h3><i class="fas fa-user-secret"></i> Security & Systems</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Ethical Hacking</span>
+                            <span class="skill-tag">Network Security</span>
+                            <span class="skill-tag">Penetration Testing</span>
+                            <span class="skill-tag">Linux / Unix</span>
+                            <span class="skill-tag">Vulnerability Analysis</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Dev Skills -->
+                    <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="200">
+                        <h3><i class="fas fa-code"></i> Web Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5 & CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">UX/UI Design</span>
+                            <span class="skill-tag">Secure Coding</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools / DB -->
+                    <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="300">
+                        <h3><i class="fas fa-database"></i> Databases & Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Git & GitHub</span>
+                            <span class="skill-tag">Terminal Tooling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">03. Execution</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                
+                <div class="project-grid">
+                    
+                    <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-content">
+                            <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+                            <h3 class="project-title">Cybersecurity Lab</h3>
+                            <p class="project-desc">
+                                A dedicated virtual environment for practicing penetration testing, exploiting known vulnerabilities in a safe setting, and analyzing network traffic to understand attack vectors.
+                            </p>
+                            <div class="project-tech">
+                                <span>Kali Linux</span>
+                                <span>Wireshark</span>
+                                <span>Metasploit</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-content">
+                            <div class="project-icon"><i class="fas fa-shield-virus"></i></div>
+                            <h3 class="project-title">Secure Web App</h3>
+                            <p class="project-desc">
+                                A full-stack web application built from the ground up with a focus on security by design. Implements robust user authentication, input sanitization, and session management to prevent common OWASP top 10 vulnerabilities.
+                            </p>
+                            <div class="project-tech">
+                                <span>HTML/JS</span>
+                                <span>Auth Systems</span>
+                                <span>Cryptography</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Stats Section -->
+        <section class="github-stats section">
+            <div class="container">
+                <div class="section-header center" data-aos="fade-up">
+                    <span class="section-subtitle">04. Activity</span>
+                    <h2 class="section-title">GitHub Overview</h2>
+                </div>
+                
+                <div class="stats-grid" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-card glass-card">
+                         <img src="https://github-readme-streak-stats.herokuapp.com/?user=samisahnouniestn25-art&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats">
+                    </div>
+                    <div class="stat-card glass-card lang-card">
+                         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=samisahnouniestn25-art&theme=tokyonight" alt="GitHub Profile Details">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-wrapper glass-card" data-aos="fade-up">
+                    <div class="contact-info">
+                        <h2>Let's build something secure.</h2>
+                        <p>Currently looking for new opportunities, exploring fascinating vulnerabilities, and establishing connections. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                        
+                        <a href="mailto:samisahnouni337@gmail.com" class="btn btn-primary btn-large block-btn">
+                            <i class="fas fa-paper-plane"></i> samisahnouni337@gmail.com
+                        </a>
+                    </div>
+                    
+                    <div class="social-grid">
+                        <a href="https://www.linkedin.com/in/sami-sahnouni-5a31243b4" target="_blank" rel="noopener noreferrer" class="social-item glass-card hover-lift">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                        <a href="https://github.com/samisahnouniestn25-art" target="_blank" rel="noopener noreferrer" class="social-item glass-card hover-lift">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub Repos</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">S<span class="highlight">AMI</span></div>
+            <p class="copyright">Designed & Built by Sami Sahnouni <br> &copy; 2026</p>
+            <div class="footer-links">
+                <a href="#home">Back to top <i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
